@@ -12,9 +12,8 @@ For example:
 ```bash
 python src/Fig2.py
 
-When `Fig2.py` is executed, the figure is displayed in an interactive
-window. Upon closing the window, the corresponding image file
-`Fig2.png` is automatically saved to the `figures/` directory.
+When `Fig3R.py` is executed, the figure is displayed in an interactive window.
+Upon closing the window, the corresponding image file `Fig3R.png` is automatically saved to the `figures/` directory.
 
 ## Requirements
 
