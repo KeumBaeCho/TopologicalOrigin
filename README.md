@@ -1,4 +1,4 @@
-# TopologicalOrigin
+# Topological Rigidity in Satisfiability
 Experimental code accompanying the paper "Topological Rigidity in Satisfiability".
 
 The code is released for research and evaluation purposes only.
