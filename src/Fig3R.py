@@ -257,8 +257,8 @@ def main():
     fig = create_figure(conflicts_r0, literals_r0, conflicts_r1, literals_r1)
     
     # Save files
-    output_png = script_dir / "figure3_right_dual_runs.png"
-    output_pdf = script_dir / "figure3_right_dual_runs.pdf"
+    output_png = script_dir / "figures/Fig3R.png"
+    #output_pdf = script_dir / "figure3_right_dual_runs.pdf"
     
     fig.savefig(output_png, dpi=300, bbox_inches='tight', facecolor='white')
     fig.savefig(output_pdf, bbox_inches='tight', facecolor='white')

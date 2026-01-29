@@ -432,7 +432,7 @@ def run_unified_explosion_analysis(level_size: int = 8,
         print()
         
         n = level_size * level_size
-        save_path = f'clause_database_growth_combined_k{level_size}_n{n}.png'
+        save_path = f'figures/Fig3L_n{n}.png'
         plot_expression_explosion_comparison(e3sat_stats, random_stats, level_size, save_path)
         
         # Interpretation

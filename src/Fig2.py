@@ -11,7 +11,7 @@ This script combines two verification experiments:
    - Compares solving time: E-3SAT vs Random 3-SAT
    - Demonstrates exponential hardness barrier
 
-Paper: "Topological Origins of Computational Hardness"
+Paper: "Topological Rigidity in Satisfiability"
 """
 
 import random
@@ -492,7 +492,7 @@ def run_unified_experiments(num_samples_th1=1000, num_samples_co1=100):
     plt.tight_layout()
     
     # Save figure
-    filename = f'unified_verification_th1_{num_samples_th1}_co1_{num_samples_co1}.png'
+    filename = f'figures/Fig2_samples_{num_samples_th1}_co1ums_{num_samples_co1}.png'
     plt.savefig(filename, dpi=300, bbox_inches='tight')
     print(f"✓ Graph saved as '{filename}'")
     
@@ -545,7 +545,7 @@ if __name__ == "__main__":
     print("*" * 80)
     print("*" + " " * 78 + "*")
     print("*  UNIFIED VERIFICATION: THEOREM 1 & COROLLARY 1                             *")
-    print("*  Topological Origins of Computational Hardness                             *")
+    print("*  Topological Ridigity in Satisfiability                                    *")
     print("*" + " " * 78 + "*")
     print("*" * 80)
     print()
