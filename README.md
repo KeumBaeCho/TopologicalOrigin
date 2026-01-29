@@ -14,8 +14,8 @@ For example:
 python src/Fig2.py
 ```
 
-When `Fig3R.py` is executed, the figure is displayed in an interactive window.
-Upon closing the window, the corresponding image file `Fig3R.png` is automatically saved to the `figures/` directory.
+When `Fig2.py` is executed, the figure is displayed in an interactive window.
+Upon closing the window, the corresponding image file `Fig2_....png` is automatically saved to the `figures/` directory.
 
 ## Requirements
 
